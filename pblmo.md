@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: article
 title: "问题库"
-description: "LINUX/PYTHON/"  
-header-img: "img/black.jpg"  
+description: "LINUX/PYTHON/"   
 ---   
 
 ## 提示  
