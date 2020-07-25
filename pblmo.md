@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "问题库"
+key: page-pblmo
 description: "LINUX/PYTHON/"   
 ---   
 
