@@ -6,8 +6,6 @@ categories: blog
 author: "嚴與渿"
 tags: [学习笔记,『左传』]
 description: 文章。
-mermaid: false
-catalog: true
 ---  
 `191121/————待完/` [`学习笔记`](../../../../../archive/?tag=学习笔记)  [`『左传』`](../../../../../archive/?tag=『左传』)   
 
