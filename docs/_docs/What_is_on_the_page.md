@@ -5,12 +5,13 @@ permalink: /docs/What_is_on_the_page
 key: docs-What-is-on-the-page
 mermaid: True
 ---
+
 **注！**
 该页面本为项目专项介绍之所，现为网页教学，如学成，删去`/docs/_docs/*`下所有文档即可。或不删自行修改与配置。
 如若删去，可上我的[备份站](https://eroskss.github.io/)，能做删后参考。
 :.error
-  
-## 板块一·网站首页
+    
+## 板块一·网站首页  
 ![img](http://pic.yupoo.com/erowz/daef16f8/6a09b5f1.jpg)  
 网站首页是用来做什么的呢？  
 网站首页是一项“总的导航”，它的功效在于为不熟悉网站布局的人寻得网站的`重心与焦点`，并为他指向作者想要让他看见的东西。比如往下拉的“项目过程”“项目环节”“团队介绍”与“支持与转发”等。
