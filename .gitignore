@@ -1,27 +1,11 @@
-*~
-~*
-*.diff
-*.patch
-*.bak
-.DS_Store
-*.swp
-*.swo
+# Logs and databases #
+######################
 *.log
-*.log.*
+*.sql
+*.sqlite
 
-/.vscode/
-
-node_modules/
-.sass-cache/
-
-/.bundle/
-/vendor/bundle
-*.gem
-
-yarn.lock
-package-lock.json
-Gemfile.lock
-
-_site/
-.jekyll-metadata
-.jekyll-cache/
+.DS_Store
+Dockerfile.*
+.jekyll-cache*
+_site*
+_site/*
