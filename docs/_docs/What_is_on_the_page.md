@@ -10,8 +10,9 @@ mermaid: True
 **注！**
 该页面本为项目专项介绍之所，现为网页教学，如学成，删去`/docs/_docs/*`下所有文档即可。或不删自行修改与配置。
 如若删去，可上我的[备份站](https://eroskss.github.io/)，能做删后参考。
-{:.error}
+:.error
   
+---  
 #### 板块一·网站首页
 ![img](http://pic.yupoo.com/erowz/daef16f8/6a09b5f1.jpg)  
 网站首页是用来做什么的呢？  
@@ -31,7 +32,7 @@ layout: landing ## layout为【该页面是什么布局？】，landing回【为
 title: 创青春项目 ## 首页标题
 excerpt: > ## 副标题，下面写内容 【注意所有文件的缩进与空格，不然会报错】
   主办单位：共青团中央、教育部、人力资源和社会保障部、中国科协、全国学联
-permalink: /index.html ## 此页面链接为/index.html
+permalink: /index.html ## 首页的链接为/index.html
 
 article_header:  ## 文章标头
   actions:  ## 各个路径
