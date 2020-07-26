@@ -1,8 +1,8 @@
 ---
 #layout: article
 title: 网页上都有些什么？
-permalink: /docs/overview
-key: docs-overview
+permalink: /docs/What_is_on_the_page
+key: docs-What-is-on-the-page
 mermaid: True
 ---
 ## Lecture - Enterprise Data Science
