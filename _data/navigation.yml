@@ -1,12 +1,12 @@
 header:
-  - title:      Lecture-Docs
+  - title:      项目介绍
     url:        /docs/overview
     key:        docs
-  - title:      Blog
+  - title:      项目文档
     url:        /docs/
-  - title:      Archive
+  - title:      分类
     url:        /archive.html
-  - title:      About
+  - title:      联系我们
     url:        /about.html
 
 
