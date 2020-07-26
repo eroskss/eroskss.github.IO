@@ -210,7 +210,7 @@ tags: ## 标签
 markdown语法，在文章最终显示效果上，是没有**“空格”**与**“换行”**的。如若想要换行，则需要特殊的办法达成，如：空格+空格+回车键
 {:.error}
 
-**正文编辑后用保存，用Github Desktop即可发布。**
+**正文编辑后保存，即可用Github Desktop进行发布。**
   
 ## 板块四•分类  
 ![img](http://pic.yupoo.com/erowz/64ecd5bf/7e9f3476.jpg)  
