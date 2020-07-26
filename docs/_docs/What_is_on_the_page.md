@@ -2,7 +2,6 @@
 #layout: article
 title: 网页的五大板块与一项配置
 date: 2020-07-06
-author: "严"
 permalink: /docs/What_is_on_the_page
 key: docs-What-is-on-the-page
 mermaid: True
