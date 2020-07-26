@@ -8,7 +8,8 @@ mermaid: True
 ### 网页的五大板块与一项配置
 
 **注！**
-该页面本为项目专项介绍之所，现为网页教学，如学成，删去`/docs/_docs/*`下所有文档，或不删自行修改、配置即可。
+该页面本为项目专项介绍之所，现为网页教学，如学成，删去`/docs/_docs/*`下所有文档即可。或不删自行修改与配置。
+如若删去，可上我的[备份站](https://eroskss.github.io/)，做一项删后参考。
 {:.error}
   
 [complementary blog posts](/docs/enterprise_data_science
