@@ -12,7 +12,7 @@ mermaid: True
 如若删去，可上我的[备份站](https://eroskss.github.io/)，许能做删后参考。
 {:.error}
 
-## 板块一·网站首页  
+## 板块一•网站首页  
 ![img](http://pic.yupoo.com/erowz/daef16f8/6a09b5f1.jpg)  
 #### 网站首页是用来做什么的呢？  
 网站首页是一项“总的导航”，它的功效在于为不熟悉网站布局的人寻得网站的`重心与焦点`，并为他指向作者想要让他看见的东西。比如往下拉出现的“项目过程”“项目环节”“团队介绍”与“支持与转发”等。
@@ -22,7 +22,7 @@ mermaid: True
 - landing.html
 ```
 首页的配置很简单，它的配置文件在整个网站文件中只有`/landing.html`一项而已。  
-而首页的`文字修改`、`图片替换`、`超链接更替`，都可在`/landing.html`文件中完成。  
+而首页的`文字修改`、`图片替换`、`超链接更替`等，都可在`/landing.html`文件中完成。  
   
 下面是一项示例，节选于`/landing.html`,我將为所有的节选代码都标上注释【注释为##后面的东西】：    
 ```markdown
@@ -58,48 +58,85 @@ data:  ##文字部分信息
 ---
 ```
 
+## 板块二•项目介绍
+![img](http://pic.yupoo.com/erowz/04f4233e/52170646.jpg)  
+#### 项目介绍用来做什么？
+项目介绍就是宁眼前的界面，只不过它现在被我用作了网页教学  
+它的优点在于**`层次分明`**和...**`专一`**，所以用它来介绍总的项目是最好不过的了。  
+宁可以用它来区别项目的**发展历程与沿命**，也可以专门用它来分层次的**介绍项目**。  
+#### 如何修改“项目介绍”？  
+要了解如何在**`项目介绍`**上发文章，首先要了解**`项目介绍`**的布局是怎样的。  
+下面就先看一下两个**导航栏**：  
+![img](http://pic.yupoo.com/erowz/8a2b93b2/bb4c409e.jpg)  
+我们可以看到正文两侧分别有两个导航栏，那么它们分别是什么意思呢？它们对应于网站的又是什么文件？  
+其实**大导航栏一**并不是文内分段的目录，而是一整篇文章的篇名。它的位置位于**`/docs/_docs/*`**中。  
 
-<!--more-->
-#### High level enterprise data science flow graph
-
-The graph gives only a very high level abstraction of enterprise data science. Note, that many lectures are focusing on the top (technical) data science part. Which is important especially to train mandatory programming / math skill sets, however, the enterprise world is more complicated. The link to business and the impact is vey challenging. In the lecture series we try to address some high level aspects.
-
-```mermaid
-graph LR;
-    A0(Enterprise Data Science)
-    B0(Data Science -technical)
-    B1[Enterprise Value]
-    C0[Explorative IT - Explain]
-    C1[Math/ML]
-    C2[Operational IT - Deploy]
-    D0[Business Processes]
-    D1[Decisions and Impact]
-    E0(Continuous Support & Operation)
-    F0[Dashboards]
-    F1[Homepage / App]
-    F2[IT Backend]
-    G3[Communication / Change]
-    A0-->B0;
-    A0-->B1;
-    B0-->C0;
-    B0-->C1;
-    B1-->D0;
-    B1-->D1;
-    C1-->C0;
-    C1-->C2;
-    B0-->C2;
-    C2-->E0;
-    C0-->F0;
-    D0-->C2;
-    D0-->E0;
-    D1-->E0;
-
-    E0-->F0;
-    E0-->F1;
-    E0-->F2;
-    E0-->G3;
-    F0-->G3;
-    F1-->G3;
-    F2-->G3;
-    D1-->G3;
 ```
+网站
+    |-docs/
+    |----|-_docs/
+    |----|----篇名一
+    |----|----篇名二
+    |----|----篇名一
+```
+而其中篇名一、二、三，就是右侧各个导航目录的名字。  
+因此**`文内导航二`**就是各个篇名内部的段落分段了。如：  
+
+```
+篇名一
+    ## 标题1
+        ### 小标题1.1
+    ## 标题2
+    ## 标题3
+```
+**注！** 其中#的数量越少，它的字号以及标题的层级就越大且越高；反之###数量多，它的字号也就越小，层级也会随之降低。
+{:.success}
+
+#### 在“项目介绍”发布文章的两步骤  
+了解完了布局，我们已经知道左右两侧导航的功效以及位置是什么了，那么我们如何在这个页面上发布文章呢？  
+其实也很简单，我们只需要做两步骤就行了。  
+- 其一，在**`/docs/_docs/*`**文件夹中创建一个名为xxxx.md的文件。
+    - 然后用sublime打开，在文档页首插入这样一段话【##后是我教学的注释，不用添加】：
+```markdown
+---
+#layout: article ##该页面的性质是“文章”
+title: 网页的五大板块与一项配置  ##页面的大标题
+date: 2019-11-03 ## 时间，请注意格式
+author: "名字"  ## 编辑者的名字
+permalink: /docs/xxxx ## xxxx是你的文件名  
+key: docs-xxxx ## xxxx是你的文件名 
+---
+
+```  
+注意，务必要在上下加上两个**`“---”`**,因为这段话是整个文本的声明，它的作用在于告诉你这篇文章的性质，以及要添加的功能。另外，请注意冒号后有一个空格，漏写会报错和无法识别，请用英文输入法打各项标点符号。
+{:.info}
+
+- 其二，在**`/_data/navigation.yml`**中找到**`“docs-nav:”`**,应该是第十三行。
+    - 你可以看到下面有一系列的列表，这意思就是正文左侧的“大导航”。
+    - 你需要把自己新创建的文件名也添上去，那么你的文章就会出现在列表了。
+    - 注意：文件添加的位置，也决定了你与该导航目录中的位置。
+  
+下面是个示例，我假设我想要把我新创建的xxxx.md也添加其中，并放在右侧大导航目录的首位：  
+> **更改前：**
+```
+docs-nav:
+  - title:      网站布局详析
+    children:
+      - title: 网页上都有些什么？
+        url: /docs/What_is_on_the_p
+```  
+> **更改后：**  
+```
+docs-nav:
+  - title:      网站布局详析
+    children:
+      - title: xxxx  ##更改部分
+        url: /docs/xxxx  ##更改部分
+      - title: 网页上都有些什么？
+        url: /docs/What_is_on_the_p
+```
+  
+千万要注意缩进，缩进不规范，亲人泪两行！缩进一般用键盘最右侧的**`Tab`**键打，当然用空格也行。还要注意冒号后一般都有一位空格，不然无效。且冒号要用英文输入法下的冒号，不得使用中文输入法冒号。
+{:.info}
+  
+这两步做完后，你的xxxx.md文件就可以在**`项目介绍`**中出现了，并且自动分层级目录。
