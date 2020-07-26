@@ -1,22 +1,95 @@
 ---
 layout: landing
-title: Enterprise Data Science
+title: TeXt Theme
 excerpt: >
-  Content site for enterprise data science, lecture material, blog, project documentation
+  A super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc.
 permalink: /index.html
 
 article_header:
   actions:
-    - text: Lecture Documents
+    - text: Getting Started
       type: error
-      url: /docs/overview
-    - text: Blog and Overview
+      url: /docs/en/quick-start
+    - text: Demo
       type: outline-theme-dark
-      url: /docs/
+      url: /test/
   height: 100vh
   theme: dark
-  background_color: "#1D293F"
+  background_color: "#367a9a"
   background_image:
     gradient: "linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .6))"
     src: /docs/assets/images/cover4.jpg
+data:
+  sections:
+    - title: 这是介绍项目的海报位置
+      excerpt: 网站同时也适配电脑与手机
+      theme: dark
+      image:
+        src: /screenshots/TeXt-responsive.png
+      background_color: "#515151"
+    - title: 项目图片简介
+      excerpt: 这里可以是副标题
+      actions:
+        - text: 经历
+          url: /samples.html
+        - text: 项目总结
+          url: /docs/en/configuration
+      image:
+        src: /screenshots/TeXt-layouts.png
+        is_row: true
+        full_width: true
+        style: "max-width: 1200px;"
+    - title: 项目团队
+      excerpt: 副标题（下面可以放团队成员照片或活动照片）
+      image:
+        src: /screenshots/TeXt-skins.png
+        is_row: true
+        full_width: true
+        style: "max-width: 1000px;"
+    - title: 项目具体环节
+      children:
+        - title: 环节一
+          excerpt: 环节简介
+          actions:
+            - text: 具体文章
+              url: /docs/en/additional-styles
+        - title: 环节二
+          excerpt: 环节简介
+            - text: 具体文章
+              url: /docs/en/extensions
+        - title: M环节二
+          excerpt: 环节简介
+            - text: 具体文章
+              url: /docs/en/markdown-enhancements
+    - title: 说一些总结，激励或感谢的话或其他
+      theme: dark
+      excerpt: 具体内容
+      actions:
+        - text: '<i class="fab fa-github"></i> GitHub'
+          type: outline-theme-dark
+          url: https://github.com/kitian616/jekyll-TeXt-theme
+      background_color: "#515151"
+    - title: 欢迎转发
+      children:
+        - title: '微信 <i class="fas fa-arrow-down"></i>'
+          image:
+            src: /docs/assets/images/tip_paypal.jpg
+            url: https://www.paypal.me/kitian616
+            style: "max-width: 200px; max-height: 200px"
+            is_row: true
+        - title: '微博 <i class="fas fa-arrow-down"></i>'
+          image:
+            src: /docs/assets/images/tip_wechat.jpg
+            style: "max-width: 200px; max-height: 200px"
+            is_row: true
+        - title: 'qq空间 <i class="fas fa-arrow-down"></i>'
+          image:
+            src: /docs/assets/images/tip_alipay.jpg
+            style: "max-width: 200px; max-height: 200px"
+            is_row: true
+        - title: '豆瓣 <i class="fas fa-arrow-down"></i>'
+          image:
+            src: /docs/assets/images/3Fkufxcw2xd8HnaRJBNK4ccdtkUDyyNu4V.jpg
+            style: "max-width: 200px; max-height: 200px"
+          content: '<code style="font-size: .65rem; word-break: break-all">3Fkufxcw2xd8HnaRJBNK4ccdtkUDyyNu4V</code>'
 ---
