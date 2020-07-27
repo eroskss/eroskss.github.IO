@@ -25,7 +25,10 @@ docs-nav:
         url:    /docs/How_to_insert_pictures
       - title:  文章中插入图片的高级用法
         url:    /docs/Picture_advanced_usage
-
+  - title:      拓展高级教程
+    children:
+      - title:  如何添加音乐、视频、PPT？
+        url:    /docs/Advanced_extended_usage
 
 layouts:
   - title: Layouts
