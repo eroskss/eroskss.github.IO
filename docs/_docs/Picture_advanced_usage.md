@@ -9,7 +9,7 @@ key: docs-Picture-advanced-usage
 这是小鱼的网络地址：[http://pic.yupoo.com/erowz/19de4592/f9ace13f.jpg](http://pic.yupoo.com/erowz/19de4592/f9ace13f.jpg)  
 最简单粗暴的效果是这样的：  
 ![img](http://pic.yupoo.com/erowz/19de4592/f9ace13f.jpg) 
-
+  
 ##　图片的高级用法　　
   
 | 样式名称 |
