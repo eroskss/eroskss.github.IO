@@ -15,48 +15,10 @@ docs-nav:
     children:
       - title: 网页上都有些什么？
         url: /docs/What_is_on_the_page
-  - title:      Introduction
+  - title:      文章编辑教程
     children:
-      - title:  Enterprise Data Science
-        url:    /docs/DS_intro
-  - title:     Python
-    children:
-      - title: Python Modules
-        url: /docs/python_setup
-  - title:     Data Structures
-    children:
-     - title: Big Data Overview
-       url: /docs/big_data_overview
-     - title: Database Introduction
-       url: /docs/database_intro
-  - title:      ML Modeling
-    children:
-      - title:  Machine Learning Intro
-        url:    /docs/ML_intro
-      - title:  Machine Learning Basics
-        url:    /docs/ML_basics
-      - title:  Machine Learning Basics II
-        url:    /docs/ML_basics_II
-      - title:  Machine Learning Forecast
-        url:    /docs/ML_forecast
-  - title:      DevOps
-    children:
-     - title:   DevOps Introduction
-       url:   /docs/devops_intro
-  - title:      Ethics
-    children:
-      - title:  AI for good
-        url:   /docs/AI_for_good
-      - title:  AI for good resources
-        url:   /docs/AI_for_good_resources
-  - title:      Appendix
-    children:
-      - title:  Overview Resources
-        url:    /docs/resources
-      - title:  Glossary
-        url:    /docs/glossary
-      - title:  Key Statements
-        url:    /docs/key_statements
+      - title:  如何写文章?
+        url:    /docs/How_to_write_an_article
 
 layouts:
   - title: Layouts
