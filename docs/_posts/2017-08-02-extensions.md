@@ -1,6 +1,8 @@
 ---
 title: 这是一个测试页
 key: 20200727
+articles:
+  excerpt_type: html
 tags: 测试
 ---
 
