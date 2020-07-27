@@ -1,7 +1,7 @@
 # @start locale config
 ## => English
 ########################
-en: &en
+en: &EN
   SUBSCRIBE               : "Subscribe"
   READMORE                : "查看更多"
   SEARCH                  : "搜索"
