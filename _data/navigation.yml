@@ -29,7 +29,8 @@ docs-nav:
     children:
       - title:  如何添加音乐、视频、PPT？
         url:    /docs/Advanced_extended_usage
-
+      - title:  如何在文章中使用数学公式？
+        url:    /docs/How_to_use_Mathjax
 layouts:
   - title: Layouts
     children:
