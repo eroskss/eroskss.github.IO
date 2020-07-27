@@ -1,10 +1,6 @@
 ---
 title: 这是一个测试页
 key: 20200727
-excerpt_separator: <!--more-->
-show_excerpt: true
-show_readmore: true
-excerpt_type: text
 tags: 测试
 ---
 
