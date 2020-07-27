@@ -25,7 +25,7 @@ key: docs-How-to-insert-pictures
 #### 在文章中添加
 它的网络地址是“http://pic.yupoo.com/erowz/e5a9dc5d/991ac2f6.jpg ”  
 于是我们就可以将它添入至文章内  
-下面的添加的语法示范与展示：
+下面是添加的语法示范和展示：
 ```markdown
 ![img](http://pic.yupoo.com/erowz/e5a9dc5d/991ac2f6.jpg)
 ```
