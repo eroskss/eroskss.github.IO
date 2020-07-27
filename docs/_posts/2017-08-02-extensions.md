@@ -8,7 +8,7 @@ excerpt_type: text
 tags: 测试
 ---
 
-这是一个测试页，页面可以发布音乐、视频、ppt等。 s
+这是一个测试页，页面可以发布音乐、视频、ppt等。
 
 <div>{%- include extensions/bilibili.html id='753526656' -%}</div>
 
