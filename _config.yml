@@ -129,23 +129,8 @@ comments:
 #old## => Pageview
 ##############################
 #pageview:
-#  provider: false # false (default), "leancloud", "custom"
+  provider: false # false (default), "leancloud", "custom"
 ## => Pageview
-#new##############################
-pageview:
-  provider: leancloud # false (default), "leancloud", "custom"
-
-  ## Leancloud
-  leancloud:
-    app_id    : uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz
-    app_key   : Mzf5m9skSwYVWVXhGiYMNyXs
-    app_class : TeXtDemo
-
-  ## Leancloud
-  leancloud:
-    app_id    : # LeanCloud App id
-    app_key   : # LeanCloud App key
-    app_class : # LeanCloud App class
 
 
 ## => Search
