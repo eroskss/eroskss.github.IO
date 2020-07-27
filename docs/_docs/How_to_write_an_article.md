@@ -126,7 +126,6 @@ title可加可不加
 ```
   
  示例：  
-语法：  
 ```markdown
 [百度](http://baidu.com)
 ```
