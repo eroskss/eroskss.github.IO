@@ -56,9 +56,6 @@ paths:
 ##############################
 ## excerpt
 excerpt_separator: <!--more-->
-excerpt_type: html
-show_excerpt: true
-show_readmore: true
 
 ## TOC
 toc:
