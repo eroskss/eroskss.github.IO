@@ -5,7 +5,9 @@ date: 2020-07-27
 permalink: /docs/How_to_write_an_article
 key: docs-How-to-write-an-article
 ---
-##Markdown语法教程  
+
+##### **Markdown语法教程**  
+  
 想要在**`项目介绍`**和**`项目文档`**中进行正文编辑，其实很简单。只是需要一些**markdown**的简单语法就可以了。  
 下面就来介绍一下**markdown**语法的具体使用规则。  
 分别使用“示例”与“最终效果”展示。
