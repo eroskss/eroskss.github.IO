@@ -56,7 +56,7 @@ paths:
 ##############################
 ## excerpt
 excerpt_separator: <!--more-->
-excerpt_type: html # text (default), html
+
 
 ## TOC
 toc:
@@ -126,10 +126,20 @@ comments:
     meta        : # "[nick, mail, link]" (default) nickname, E-mail, Personal-site
 
 
-## => Pageview
+#old## => Pageview
 ##############################
+#pageview:
+#  provider: false # false (default), "leancloud", "custom"
+## => Pageview
+#new##############################
 pageview:
-  provider: false # false (default), "leancloud", "custom"
+  provider: leancloud # false (default), "leancloud", "custom"
+
+  ## Leancloud
+  leancloud:
+    app_id    : uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz
+    app_key   : Mzf5m9skSwYVWVXhGiYMNyXs
+    app_class : TeXtDemo
 
   ## Leancloud
   leancloud:
