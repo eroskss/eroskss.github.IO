@@ -1,8 +1,8 @@
-Frank Kienle:
-  name: Frank Kienle # your Name
-  url: http://www.kienlefrank.de
-  avatar: /assets/images/frank_avatar.png # your photo
-  bio: Focusing on the data to value journey for enterprises
+authors:
+  name:  # your Name
+  url: 
+  avatar:  # your photo
+  bio: 创青春项目
   email: #
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   :  # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
@@ -12,6 +12,6 @@ Frank Kienle:
   medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
-  linkedin  : frank-kienle-0040b99b # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : kienlef # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  linkedin  :  # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+  github    :  # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : #
