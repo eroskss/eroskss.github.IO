@@ -6,7 +6,7 @@ permalink: /docs/Picture_advanced_usage
 key: docs-Picture-advanced-usage
 ---  
 上一种插入图片的方式比较简单粗暴，直接占满了整个屏幕，可我们有时图片太小，或想要在图片旁边一侧打字，或为图片加上特效该如何实现呢?下面以一张小鱼的图片作为示例。  
-这是小鱼的网络地址：http://pic.yupoo.com/erowz/19de4592/f9ace13f.jpg  
+这是小鱼的网络地址：[http://pic.yupoo.com/erowz/19de4592/f9ace13f.jpg](http://pic.yupoo.com/erowz/19de4592/f9ace13f.jpg)  
 最简单粗暴的效果是这样的：  
 ![img](http://pic.yupoo.com/erowz/19de4592/f9ace13f.jpg)  
 ###　图片的高级用法　　
@@ -31,8 +31,10 @@ key: docs-Picture-advanced-usage
     ![Image](path-to-image){:.border}
 </div>
 </div>
-</div>
+</div>　　
 
+![Image](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg "Image_border"){:.border}
+　　
 ### Shadow
 
 <div class="grid-containre">
