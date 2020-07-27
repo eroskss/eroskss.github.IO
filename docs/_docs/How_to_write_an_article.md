@@ -64,14 +64,14 @@ key: docs-How-to-write-an-article
 文章中可以引用别人的话，而引用的方法也可以通过特殊的语法实现，在markdown中是“> + 内容”  
 Markdown 标记区块引用的方法是在行的最前面加>  
 
-```markdwon
+```
 > 也可以只在整个段落的第一行最前面加上 >
 > 
 > >区块引用内部可以嵌套，只要根据层次加上不同数量的 >即可.我是内部嵌套区块，我可以使用其他Markdown 语法哦
 
 >我是引用区块内使用标题3语法
 >在引用区块内可以加入代码块 import java.net.URL; import java.util.Arrays; import java.util.Date; 
-```  
+```
 
 > 也可以只在整个段落的第一行最前面加上 >
 > 
