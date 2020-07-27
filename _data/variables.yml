@@ -11,6 +11,11 @@ default:
   mathjax_autoNumber: true
   mermaid: true
   chart: truee
+  show_cover: true
+  show_excerpt: true
+  show_readmore: true
+  show_info: true
+  excerpt_type: html
   toc:
     selectors: 'h1,h2,h3'
   sources: bootcdn
@@ -27,6 +32,11 @@ default:
       show_readmore: true
       show_info: true
       excerpt_type: html
+    show_cover: true
+    show_excerpt: true
+    show_readmore: true
+    show_info: true
+    excerpt_type: html
     show_title: true
     show_edit_on_github: false
     show_date: true
