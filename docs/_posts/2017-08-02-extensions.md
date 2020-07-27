@@ -4,7 +4,7 @@ key: 20200727
 excerpt_separator: <!--more-->
 show_excerpt: true
 show_readmore: true
-excerpt_type: html
+excerpt_type: text
 tags: 测试
 ---
 
