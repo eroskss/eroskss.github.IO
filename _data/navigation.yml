@@ -33,7 +33,7 @@ docs-nav:
         url:    /docs/Advanced_extended_usage
       - title:  如何在文章中使用数学公式？
         url:    /docs/How_to_use_Mathjax
-  - title:      各种图标如何使用？
+  - title:      各种图表如何使用？
     children:
       - title:  流程图
         url:    /docs/Flowchart
