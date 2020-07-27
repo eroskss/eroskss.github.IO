@@ -24,7 +24,7 @@ key: docs-Advanced-extended-usage
 
 **效果展示：**  
 
-<div>{%- include extensions/netease-cloud-music.html id='28638802' -%}</div>
+<div>{%- include extensions/netease-cloud-music.html id='19027624' -%}</div>
 
 
 ## 视频
