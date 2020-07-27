@@ -18,31 +18,31 @@ key: docs-How-to-write-an-article
   
 #### 标题  
 
-```markdwon
+```markdown
 # 这是H1标题
 ```
 
 # 这是H1标题
   
-```markdwon
+```markdown
 ## 这是H2标题
 ```
 
 ## 这是H2标题  
   
-```markdwon
+```markdown
 ### 这是H3标题
 ```
 
 ### 这是H3标题  
     
-```markdwon
+```markdown
 #### 这是H4标题
 ```
 
 #### 这是H4标题  
   
-```markdwon
+```markdown
 ##### 这是H5标题
 ```
 
