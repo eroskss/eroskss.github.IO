@@ -1,15 +1,15 @@
 # @start locale config
 ## => English
 ########################
-en: &EN
+en: &zh
   SUBSCRIBE               : "Subscribe"
-  READMORE                : "Read more"
-  SEARCH                  : "Search"
-  CANCEL                  : "Cancel"
-  VIEWS                   : "views"
-  LAST_UPDATED            : "Last updated"
-  PREVIOUS                : "PREVIOUS"
-  NEXT                    : "NEXT"
+  READMORE                : "查看更多"
+  SEARCH                  : "搜索"
+  CANCEL                  : "取消"
+  VIEWS                   : "观看"
+  LAST_UPDATED            : "最后更新"
+  PREVIOUS                : "上一篇"
+  NEXT                    : "上一篇"
   ARTICLE_DATE_FORMAT     : "%b %d, %Y"
   ARTICLE_LIST_DATE_FORMAT: "%b %d"
   STATISTICS              : "[POST_COUNT] post articles, [PAGE_COUNT] pages."
@@ -19,7 +19,7 @@ en: &EN
   FOLLOW_US               : "Follow us on [NAME]."
   EMAIL_ME                : "Send me an Email."
   EMAIL_US                : "Send us an Email."
-  COPYRIGHT_DATES         : "2019"
+  COPYRIGHT_DATES         : "2020"
 
 en-GB:
   <<: *EN
@@ -29,5 +29,6 @@ en-CA:
   <<: *EN
 en-AU:
   <<: *EN
-
+zh:
+  <<: *ZH
 # @end locale config
