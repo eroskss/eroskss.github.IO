@@ -1,7 +1,7 @@
 # @start locale config
 ## => English
 ########################
-en: &zh
+en: &en
   SUBSCRIBE               : "Subscribe"
   READMORE                : "查看更多"
   SEARCH                  : "搜索"
@@ -29,6 +29,4 @@ en-CA:
   <<: *EN
 en-AU:
   <<: *EN
-zh:
-  <<: *ZH
 # @end locale config
