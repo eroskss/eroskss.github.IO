@@ -19,6 +19,10 @@ docs-nav:
     children:
       - title:  如何写文章?
         url:    /docs/How_to_write_an_article
+      - title:  文章编辑的其他样式
+        url:    /docs/Other_styles
+      - title:  如何在文章中插入图片
+        url:    /docs/How_to_insert_pictures
 
 layouts:
   - title: Layouts
