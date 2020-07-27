@@ -23,6 +23,9 @@ docs-nav:
         url:    /docs/Other_styles
       - title:  如何在文章中插入图片
         url:    /docs/How_to_insert_pictures
+      - title:  文章中插入图片的高级用法
+        url:    /docs/Picture_advanced_usage
+
 
 layouts:
   - title: Layouts
