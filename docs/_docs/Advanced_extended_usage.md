@@ -16,7 +16,7 @@ key: docs-Advanced-extended-usage
 **markdown语法:**
   
 ```markdown
-<div>{%- include extensions/netease-cloud-music.html id='19027624' -%}</div>
+<div>{%- include extensions/netease-cloud-music.html id='28638802' -%}</div>
 ```
 
 修改【id='xxxx'】中的数字即可，ID的获取方式如上图
@@ -24,7 +24,7 @@ key: docs-Advanced-extended-usage
 
 **效果展示：**  
 
-<div>{%- include extensions/netease-cloud-music.html id='19027624' -%}</div>
+<div>{%- include extensions/netease-cloud-music.html id='28638802' -%}</div>
 
 
 ## 视频
