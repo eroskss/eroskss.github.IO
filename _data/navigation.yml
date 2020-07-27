@@ -31,6 +31,19 @@ docs-nav:
         url:    /docs/Advanced_extended_usage
       - title:  如何在文章中使用数学公式？
         url:    /docs/How_to_use_Mathjax
+  - title:      各种图标如何使用？
+    children:
+      - title:  流程图
+        url:    /docs/Flowchart
+      - title:  顺序图和甘特图
+        url:    /docs/sxthgtt
+      - title:  折线图、条形图和饼图
+        url:    /docs/zxtd
+      - title:  雷达图和气泡图
+        url:    /docs/ldtqpt
+
+
+
 layouts:
   - title: Layouts
     children:
