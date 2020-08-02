@@ -1,78 +1,74 @@
 header:
-  - title:      项目介绍
-    url:        /docs/What_is_on_the_page
-    key:        docs
-  - title:      项目文档
-    url:        /docs/
-  - title:      分类
-    url:        /archive.html
-  - title:      联系我们
-    url:        /about.html
+  - titles:
+      # @start locale config
+      en      : &EN       Archive
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  归档
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  歸檔
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       아카이브
+      ko-KR   : *KO
+      fr      : &FR       Archives
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      # @end locale config
+    url: /archive.html
 
+  # - titles:
+  #     # @start locale config
+  #     en      : &EN       About
+  #     en-GB   : *EN
+  #     en-US   : *EN
+  #     en-CA   : *EN
+  #     en-AU   : *EN
+  #     zh-Hans : &ZH_HANS  关于
+  #     zh      : *ZH_HANS
+  #     zh-CN   : *ZH_HANS
+  #     zh-SG   : *ZH_HANS
+  #     zh-Hant : &ZH_HANT  關於
+  #     zh-TW   : *ZH_HANT
+  #     zh-HK   : *ZH_HANT
+  #     ko      : &KO       소개
+  #     ko-KR   : *KO
+  #     fr      : &FR       À propos
+  #     fr-BE   : *FR
+  #     fr-CA   : *FR
+  #     fr-CH   : *FR
+  #     fr-FR   : *FR
+  #     fr-LU   : *FR
+  #     # @end locale config
+  #   url: /about.html
 
-docs-nav:
-  - title: 网站布局详析
+nav-zh:
+  - title: 这是最左侧的列表
     children:
-      - title: 网页上都有些什么？
-        url: /docs/What_is_on_the_page
-  - title:      文章编辑教程
+      - title:  빅데이터 Big Data
+        url:    /bigdata
+      - title:  데이터 엔지니어 Data Engineer
+        url:    /dataengineer
+      - title:  파이썬 분석 iPython
+        url:    /ipython
+      - title:  통계학 Stats
+        url:    /stats
+  - title: DEV
     children:
-      - title:  如何写文章?
-        url:    /docs/How_to_write_an_article
-      - title:  文章编辑的其他样式
-        url:    /docs/Other_styles
-      - title:  如何在文章里添加脚注
-        url:    /docs/jz
-      - title:  如何在文章中插入图片
-        url:    /docs/How_to_insert_pictures
-      - title:  文章中插入图片的高级用法
-        url:    /docs/Picture_advanced_usage
-  - title:      拓展高级教程
+      - title:  알고리즘 Algorithm
+        url:    /algorithm
+      - title:  파이썬 Python
+        url:    /python
+  - title: ETC
     children:
-      - title:  如何添加音乐、视频、PPT？
-        url:    /docs/Advanced_extended_usage
-      - title:  如何在文章中使用数学公式？
-        url:    /docs/How_to_use_Mathjax
-  - title:      各种图表如何使用？
-    children:
-      - title:  流程图
-        url:    /docs/Flowchart
-      - title:  顺序图和甘特图
-        url:    /docs/sxthgtt
-      - title:  折线图、条形图和饼图
-        url:    /docs/zxtd
-      - title:  雷达图和气泡图
-        url:    /docs/ldtqpt
-
-
-
-layouts:
-  - title: Layouts
-    children:
-      - title:  Single
-        url:    /page/single.html
-      - title:  Aside
-        url:    /page/aside.html
-      - title:  Sidebar
-        url:    /page/sidebar.html
-
-      - title:  Sidebar (Aside)
-        url:    /page/sidebar-aside.html
-      - title:  Article Header Overlay Background Fill
-        url:    /page/article-header-overlay-background-fill.html
-      - title:  Article Header Overlay Background Image
-        url:    /page/article-header-overlay-background-image.html
-
-      - title:  Article Header Image
-        url:    /page/article-header-cover-image.html
-      - title:  Article Header Overlay Background Image (Customized Header Background)
-        url:    /page/article-header-overlay-background-image-header-background.html
-      - title:  Article Header Image (Customized Header Background)
-        url:    /page/article-header-cover-image-header-background.html
-
-      - title:  Article Header Overlay Background Fill (Immersive + Translucent Header)
-        url:    /page/article-header-overlay-background-fill-immersive-translucent-header.html
-      - title:  Article Header Overlay Background Image (Immersive + Translucent Header)
-        url:    /page/article-header-overlay-background-image-immersive-translucent-header.html
-      - title:  Article Header Image (Immersive + Translucent Header)
-        url:    /page/article-header-cover-image-immersive-translucent-header.html
+      - title:  블로그 Blog
+        url:    /blog
+      - title:  그외 ETC
+        url:    /etc

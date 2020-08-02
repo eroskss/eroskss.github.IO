@@ -223,9 +223,11 @@ layout: base
         {%- endif -%}
         </div>
 
-        {%- if _footer != false -%}
+        <!-- footer를 sidebar로 이동시킴
+          {%- if _footer != false -%}
           <div class="page__footer d-print-none">{%- include footer.html -%}</div>
-        {%- endif -%}
+        {%- endif -%} 
+        -->
       </div>
     </div> {%- comment -%} end page__main {%- endcomment -%}
 {%- if page.sidebar -%}

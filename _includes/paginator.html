@@ -1,7 +1,10 @@
 {%- if paginator.total_pages > 1 -%}
   <div class="pagination">
 
-    {%- include snippets/get-locale-string.html key='STATISTICS' -%}
+    {%- if include.show_count -%}
+      {%- include snippets/get-locale-string.html key='STATISTICS' -%}
+    {%- endif -%}
+    
     {%- assign _locale_statistics = __return -%}
 
     {%- assign _post_count = site.posts | size -%}

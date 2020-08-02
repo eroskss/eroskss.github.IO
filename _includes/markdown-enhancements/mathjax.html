@@ -8,7 +8,10 @@
 <script type="text/x-mathjax-config">
 	var _config = { tex2jax: {
 		inlineMath: [['$','$'], ['\\(','\\)']]
-	}};
+		},
+		displayAlign: "left",
+		displayIndent: ".5em"
+	};
 	{%- if _mathjax_autoNumber == true -%}
 		_config.TeX = { equationNumbers: { autoNumber: "all" } };
 	{%- endif -%}
