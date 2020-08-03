@@ -30,7 +30,7 @@
 <span class="na">title</span><span class="pi">:</span> <span class="s">Algorithm</span>
 <span class="na">permalink</span><span class="pi">:</span> <span class="s">/algorithm</span>
 <span class="na">sidebar</span><span class="pi">:</span>
-    <span class="na">nav</span><span class="pi">:</span> <span class="s">nav-kr</span>
+    <span class="na">nav</span><span class="pi">:</span> <span class="s">nav-zh</span>
 <span class="nn">---</span>
 </code></pre></div>    </div>
     <ul>
@@ -53,7 +53,7 @@
   <span class="err">  </span><span class="na">values</span><span class="pi">:</span>
       <span class="na">layout</span><span class="pi">:</span> <span class="s">category</span>
       <span class="na">sidebar</span><span class="pi">:</span>
-        <span class="na">nav</span><span class="pi">:</span> <span class="s">nav-kr</span>
+        <span class="na">nav</span><span class="pi">:</span> <span class="s">nav-zh</span>
 </code></pre></div></div>
 
 <h2 id="navigation-list">navigation list</h2>
@@ -62,7 +62,7 @@
   <li>
     <p>/_data/navigation.yml 에 nav list 추가</p>
 
-    <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">nav-kr</span><span class="pi">:</span>
+    <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">nav-zh</span><span class="pi">:</span>
 <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">Data Science</span>
   <span class="na">children</span><span class="pi">:</span>
     <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span>  <span class="s">Big Data</span>
