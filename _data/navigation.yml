@@ -49,8 +49,8 @@ header:
   #     # @end locale config
   #   url: /about.html
 
-nav-zh:
-  - title: 这是最左侧的列表
+nav-kr:
+  - title: Data Science
     children:
       - title:  빅데이터 Big Data
         url:    /bigdata
