@@ -139,7 +139,7 @@ pageview:
     app_class : # LeanCloud App class
 
 
-## => Search
+## => Search 
 ##############################
 search:
   provider: default # "default" (default), false, "google", "custom"
