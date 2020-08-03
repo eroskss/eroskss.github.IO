@@ -62,8 +62,8 @@ nav-zh:
         url:    /stats
   - title: DEV
     children:
-      - title:  /algorithm/2020-02-12-Dijkstra
-        url:    /dev
+      - title:  Dijkstra's Algorithm
+        url:    /algorithm/2020-02-12-Dijkstra
   - title: ETC
     children:
       - title:  블로그 Blog
