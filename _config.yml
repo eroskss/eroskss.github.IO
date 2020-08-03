@@ -207,7 +207,7 @@ defaults:
     values:
       layout: category
       sidebar:
-        nav: nav-zh
+        nav: nav-kr
 
 
 ## => Plugins
