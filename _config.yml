@@ -169,7 +169,7 @@ highlighter : rouge
 permalink   : /:categories/:title
 
 ## => Dev
-##############################
+############################## 
 # show_drafts : true
 
 exclude:
