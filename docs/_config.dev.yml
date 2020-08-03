@@ -215,7 +215,7 @@ defaults:
       aside:
         toc: true
       sidebar:
-        nav: nav-kr
+        nav: nav-zh
       show_edit_on_github: false
       show_subscribe: false
       pageview: false
@@ -226,7 +226,7 @@ defaults:
     values:
       layout: category
       sidebar:
-        nav: nav-kr
+        nav: nav-zh
 
 
 ## => Plugins
@@ -456,7 +456,7 @@ defaults:
       aside:
         toc: true
       sidebar:
-        nav: nav-kr
+        nav: nav-zh
       show_edit_on_github: false
       show_subscribe: false
       pageview: false
@@ -467,7 +467,7 @@ defaults:
     values:
       layout: category
       sidebar:
-        nav: nav-kr
+        nav: nav-zh
 
 
 ## => Plugins
