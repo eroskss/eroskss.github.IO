@@ -271,8 +271,7 @@ layout: base
 </script>
 {%- endif -%}
 
-{%- include markdown-enhancements.html -%}
-{%- include pageview.html -%}
+{%- if page.sidebar -%}
 <!-- back-top -->
 <div id="back-top">
   <a href="#" data-toggle="tooltip" data-placement="top" title="top">
@@ -297,3 +296,7 @@ layout: base
   });
 });
 </script>
+{%- endif -%}
+
+{%- include markdown-enhancements.html -%}
+{%- include pageview.html -%}
