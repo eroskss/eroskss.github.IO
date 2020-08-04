@@ -70,9 +70,3 @@ nav-zh:
         url:    /blog
       - title:  그외 ETC
         url:    /
-  - title: 测试页
-    children:
-      - title:  套娃1
-        url:    /taowa
-      - title:  套娃2
-        url:    /taowa2
