@@ -69,4 +69,10 @@ nav-zh:
       - title:  블로그 Blog
         url:    /blog
       - title:  그외 ETC
-        url:    /etc
+        url:    /
+  - title: 套娃测试
+    children:
+      - title:  套娃一
+        url:    /taowa
+      - title:  套娃二
+        url:    /taowa
