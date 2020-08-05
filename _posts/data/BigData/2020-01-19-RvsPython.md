@@ -40,11 +40,11 @@ tags: [bigdata, python]
 ```markdown
 [![img](http://pic.yupoo.com/erowz/f6323ba5/2bad5718.jpeg){:.border width='600px'}](http://pic.yupoo.com/erowz/f6323ba5/2bad5718.jpeg)
 ```
-  
-&emsp;&emsp;
+
+&emsp;
 
 [![img](http://pic.yupoo.com/erowz/f6323ba5/2bad5718.jpeg){:.border width='500px'}](http://pic.yupoo.com/erowz/f6323ba5/2bad5718.jpeg)
-&emsp;&emsp;使用了**`[[图片名称](图片链接)](链接地址)`**的语法
+&emsp;使用了**`[[图片名称](图片链接)](链接地址)`**的语法
 {:.comment}
 
 ## 调用语法简写
@@ -61,10 +61,11 @@ tags: [bigdata, python]
 ```markdown
 ![img](http://pic.yupoo.com/erowz/f6323ba5/2bad5718.jpeg){:.rounded.shadow}
 ```
-&emsp;&emsp;  
+
+&emsp;
 
 ![img](http://pic.yupoo.com/erowz/f6323ba5/2bad5718.jpeg){:.border width='500px'}{:.rounded.shadow}
-&emsp;&emsp;**`{:.rounded.shadow}`**分别是圆角与阴影立体
+&emsp;**`{:.rounded.shadow}`**分别是圆角与阴影立体
 {:.comment}
 
 # 链接配置
