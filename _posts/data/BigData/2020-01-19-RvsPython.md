@@ -7,29 +7,32 @@ tags: [bigdata, python]
 {% assign path = page.imgpath | append: page.id %}
 
 # Markdwon特殊符号语法表示
-> 可用于**逻辑学**、数学等公式中，[其他详细参考](https://blog.csdn.net/qq_33538554/article/details/86999348)
+> 可用于**逻辑学**、数学等公式中，[其他详细参考](https://blog.csdn.net/qq_33538554/article/details/86999348){:target='_blank'}
 {:.comment}   
 
-| 符号  |  名称  |   页内语法标记   |     范畴     |
-|:---:|:----:|:----------:|:----------:|
-|  ⇒  | 实质蕴涵 |  `&rArr;`  |    命题逻辑    |
-|  →  | 实质蕴涵 |  `&rarr;`  |    命题逻辑    |
-|  ⊃  | 实质蕴涵 |  `&sup;`   |    命题逻辑    |
-|  ⇔  | 实质等价 |  `&hArr;`  |    命题逻辑    |
-|  ↔  | 实质等价 |  `&harr;`  |    命题逻辑    |
-|  ¬  | 逻辑否定 |  `&not;`   |    命题逻辑    |
-|  /  | 命题逻辑 |  `&sol;`   |    命题逻辑    |
-|  ∧  | 逻辑合取 |  `&and;`   |    命题逻辑    |
-|  ∨  | 逻辑析取 |   `&or;`   |    命题逻辑    |
-|  ⊕  | xor  | `&oplus;`  | 命题逻辑, 布尔代数 |
-|  ⊻  | xor  | `&veebar;` | 命题逻辑, 布尔代数 |
-|  ∀  | 全称量词 | `&forall;` |    谓词逻辑    |
-|  ∃  | 存在量词 | `&exist;`  |    谓词逻辑    |
-| ∃!  | 唯一量词 | `&exist;`！ |    谓词逻辑    |
-| :=  |  定义  |    `:=`    |    所有地方    |
-| :⇔  |  定义  | `:&hArr;`  |    所有地方    |
-| ()  | 优先组合 |    `()`    |    所有地方    |
-|  ├  |  推论  | `&#9500;`  | 命题逻辑, 谓词逻辑 |
+| 符号  |  名称  |   页内语法标记   |     范畴     |         读作          |
+|:---:|:----:|:----------:|:----------:|:-------------------:|
+|  ⇒  | 实质蕴涵 |  `&rArr;`  |    命题逻辑    |     蕴涵；如果.. 那么      |
+|     |      |            |            |                     |
+|  →  | 实质蕴涵 |  `&rarr;`  |    命题逻辑    |     蕴涵；如果.. 那么      |
+|     |      |            |            |                     |
+|  ⊃  | 实质蕴涵 |  `&sup;`   |    命题逻辑    |     蕴涵；如果.. 那么      |
+|     |      |            |            |                     |
+|  ⇔  | 实质等价 |  `&hArr;`  |    命题逻辑    |      当且仅当；iff       |
+|  ↔  | 实质等价 |  `&harr;`  |    命题逻辑    |      当且仅当；iff       |
+|  ¬  | 逻辑否定 |  `&not;`   |    命题逻辑    |          非          |
+|  /  | 命题逻辑 |  `&sol;`   |    命题逻辑    |          非          |
+|  ∧  | 逻辑合取 |  `&and;`   |    命题逻辑    |          与          |
+|  ∨  | 逻辑析取 |   `&or;`   |    命题逻辑    |          或          |
+|  ⊕  | xor  | `&oplus;`  | 命题逻辑, 布尔代数 |         异或          |
+|  ⊻  | xor  | `&veebar;` | 命题逻辑, 布尔代数 |         异或          |
+|  ∀  | 全称量词 | `&forall;` |    谓词逻辑    | 对于所有； 对于任何；对于每个；任意的 |
+|  ∃  | 存在量词 | `&exist;`  |    谓词逻辑    |         存在着         |
+| ∃!  | 唯一量词 | `&exist;`！ |    谓词逻辑    |       精确的存在一个       |
+| :=  |  定义  |    `:=`    |    所有地方    |        被定义为         |
+| :⇔  |  定义  | `:&hArr;`  |    所有地方    |        被定义为         |
+| ()  | 优先组合 |    `()`    |    所有地方    |          无          |
+|  ├  |  推论  | `&#9500;`  | 命题逻辑, 谓词逻辑 |        推论或推导        |
 
 # 图片添加
 
@@ -39,7 +42,7 @@ tags: [bigdata, python]
 [![img](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg){:.border width='600px'}](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg)
 ```
 
-[![img](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg){:.border width='600px'}](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg)
+[![img](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg){:.border width='500px'}](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg)
 
 ## 调用语法简写
 > 声明的意思是可用ID来代替图片的文件路径和网页的文件路径，但原路径是设置在github本地文件里的，考虑到国内访问github图床的速度，慎用。后者路径可能由**category**决定。
@@ -50,13 +53,13 @@ tags: [bigdata, python]
 ![img]({{path}}/img01.png){:width='500px'}
 ```
 
-## 圆角影印图片
+## 圆角阴影图片
 
 ```markdown
 ![img](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg){:.rounded.shadow}
 ```
 
-![img](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg){:.rounded.shadow}
+![img](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg){:.border width='500px'}{:.rounded.shadow}
 
 # 链接配置
 
