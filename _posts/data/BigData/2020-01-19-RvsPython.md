@@ -37,9 +37,9 @@ tags: [bigdata, python]
 
 ## 弹出式图片(可点击)
 
-[![img](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg){:.border width='500px'}](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg)
+[![img](http://pic.yupoo.com/erowz/f6323ba5/2bad5718.jpeg){:.border width='350px'}](http://pic.yupoo.com/erowz/f6323ba5/2bad5718.jpeg)
 ```markdown
-[![img](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg){:.border width='600px'}](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg)
+[![img](http://pic.yupoo.com/erowz/f6323ba5/2bad5718.jpeg){:.border width='600px'}](http://pic.yupoo.com/erowz/f6323ba5/2bad5718.jpeg)
 ```
 {:.comment}
 
@@ -55,10 +55,10 @@ tags: [bigdata, python]
 ## 圆角阴影图片
 
 ```markdown
-![img](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg){:.rounded.shadow}
+![img](http://pic.yupoo.com/erowz/f6323ba5/2bad5718.jpeg){:.rounded.shadow}
 ```
 
-![img](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg){:.border width='500px'}{:.rounded.shadow}
+![img](http://pic.yupoo.com/erowz/f6323ba5/2bad5718.jpeg){:.border width='400px'}{:.rounded.shadow}
 
 # 链接配置
 
