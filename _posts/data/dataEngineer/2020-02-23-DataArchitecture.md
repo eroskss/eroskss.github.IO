@@ -12,7 +12,11 @@ tags: [data, dataengineer, dataarchitecture]
 
 - 모든 비지니스가 동일한 데이터 분석 환경을 갖출 수가 없다
 - 성장 단계에 따라 선택 집중해야 하는 분석 환경이 다르다
-&#x2190; &#8592; &larr;
+
+/&rArr;
+/&rArr; /&rArr;
+&rArr; &#8658; &#x21d2;
+
 ![Image]({{path}}/img01.png)  
 *데이터 기반 가설 검증단계*
 
