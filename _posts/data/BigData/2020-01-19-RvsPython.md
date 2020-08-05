@@ -59,10 +59,10 @@ tags: [bigdata, python]
 ```markdown
 ![img](http://pic.yupoo.com/erowz/f6323ba5/2bad5718.jpeg){:.rounded.shadow}
 ```
-**`{:.rounded.shadow}`**分别是圆角与阴影立体
-{:.comment}
 
 ![img](http://pic.yupoo.com/erowz/f6323ba5/2bad5718.jpeg){:.border width='500px'}{:.rounded.shadow}
+**`{:.rounded.shadow}`**分别是圆角与阴影立体
+{:.comment}
 
 # 链接配置
 
