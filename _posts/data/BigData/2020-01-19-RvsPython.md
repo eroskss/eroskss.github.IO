@@ -66,10 +66,10 @@ tags: [bigdata, python]
 ## 链接跳转到新窗口
 
 ```markdown
-[书格](http://media.fastcampus.co.kr/knowledge/dataanalysis-python-r/){:target='_blank'}
+[书格](https://www.shuge.org/){:target='_blank'}
 ```
 
-链接：[书格](http://media.fastcampus.co.kr/knowledge/dataanalysis-python-r/){:target='_blank'}  
+链接：[书格](https://www.shuge.org/){:target='_blank'}  
 
 # 取消特殊符号的功能语法化
 > 在符号前加上**反斜杠**\
