@@ -6,7 +6,7 @@ tags: [bigdata, python]
 ---
 {% assign path = page.imgpath | append: page.id %}
 
-# Markdwon特殊符号语法表示
+# Markdwon特殊符号语法标记
 > 可用于**逻辑学**、**数学**等公式中，[其他详细参考](https://blog.csdn.net/qq_33538554/article/details/86999348){:target='_blank'}
 {:.comment}   
 
@@ -37,12 +37,10 @@ tags: [bigdata, python]
 
 ## 弹出式图片(可点击)
 
+[![img](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg){:.border width='500px'}](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg)
 ```markdown
 [![img](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg){:.border width='600px'}](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg)
 ```
-
-[![img](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg){:.border width='500px'}](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg)
-慎用。后者路径可能由**category**决定。
 {:.comment}
 
 ## 调用语法简写
