@@ -17,7 +17,7 @@ tags: [data, dataengineer, dataarchitecture]
 
 \&\rArr; \&rArr\;\\
 
-&rArr; &#8658; &#x21d2;
+`&rArr;` &#8658; &#x21d2;
 
 ![Image]({{path}}/img01.png)  
 *데이터 기반 가설 검증단계*
