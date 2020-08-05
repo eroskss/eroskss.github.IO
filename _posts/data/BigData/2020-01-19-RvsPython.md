@@ -42,6 +42,8 @@ tags: [bigdata, python]
 ```
 
 [![img](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg){:.border width='500px'}](http://pic.3zitie.cn/zhuangshi/2017/10/379/pic/img/0086.jpg)
+慎用。后者路径可能由**category**决定。
+{:.comment}
 
 ## 调用语法简写
 > 声明的意思是可用ID来代替图片的文件路径和网页的文件路径，但原路径是设置在github本地文件里的，考虑到国内访问github图床的速度，慎用。后者路径可能由**category**决定。
