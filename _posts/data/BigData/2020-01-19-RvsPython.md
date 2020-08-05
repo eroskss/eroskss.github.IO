@@ -42,7 +42,7 @@ tags: [bigdata, python]
 ```
 
 [![img](http://pic.yupoo.com/erowz/f6323ba5/2bad5718.jpeg){:.border width='500px'}](http://pic.yupoo.com/erowz/f6323ba5/2bad5718.jpeg)
-使用了**[[图片名称](图片链接)](链接地址)**的语法
+使用了**`[[图片名称](图片链接)](链接地址)`**的语法
 {:.comment}
 
 ## 调用语法简写
