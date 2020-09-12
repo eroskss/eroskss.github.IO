@@ -50,7 +50,7 @@ header:
   #   url: /about.html
 
 nav-zh:
-  - title: Data Science
+  - title: Data
     children:
       - title:  빅데이터 Big Data
         url:    /bigdata
