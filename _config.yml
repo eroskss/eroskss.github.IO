@@ -101,7 +101,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: valine # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
@@ -177,12 +177,12 @@ comments:
 ## => Pageview
 ##############################
 pageview:
-  provider: false # false (default), "leancloud", "custom"
+  provider: leancloud # false (default), "leancloud", "custom"
 
   ## Leancloud
   leancloud:
-    app_id    : # LeanCloud App id
-    app_key   : # LeanCloud App key
+    app_id    : 7hgyMrKUuyLB2dXPeeia9O72-gzGzoHsz # LeanCloud App id
+    app_key   : bSWXyG6X950FhYGplIvUhvKb # LeanCloud App key
     app_class : # LeanCloud App class
 
 
