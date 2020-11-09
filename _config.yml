@@ -101,7 +101,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: valine # false (default), "disqus", "gitalk", "valine", "custom"
+  provider:  false # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
@@ -120,22 +120,22 @@ comments:
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
   valine:
-    app_id      : 7hgyMrKUuyLB2dXPeeia9O72-gzGzoHsz # LeanCloud App id
-    app_key     : bSWXyG6X950FhYGplIvUhvKb # LeanCloud App key
-    placeholder : 点击评论，记得输入上方的昵称喔~ # Prompt information
+    app_id      : # LeanCloud App id
+    app_key     : # LeanCloud App key
+    placeholder :  # Prompt information
     visitor     : # false (default)
-    meta        : nick # "[nick, mail, link]" (default) nickname, E-mail, Personal-site
+    meta        :  # "[nick, mail, link]" (default) nickname, E-mail, Personal-site
 
 
 ## => Pageview
 ##############################
 pageview:
-  provider: leancloud # false (default), "leancloud", "custom"
+  provider: # false (default), "leancloud", "custom"
 
   ## Leancloud
   leancloud:
-    app_id    : 7hgyMrKUuyLB2dXPeeia9O72-gzGzoHsz # LeanCloud App id
-    app_key   : bSWXyG6X950FhYGplIvUhvKb # LeanCloud App key
+    app_id    :  # LeanCloud App id
+    app_key   :  # LeanCloud App key
     app_class : # LeanCloud App class
 
 
